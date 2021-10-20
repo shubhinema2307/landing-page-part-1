@@ -1,0 +1,411 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Poppins', sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.landing-page {
+    background-image: url('../images/Group 2.png');
+    background-size: cover;
+    
+}
+
+.header {
+    padding-top: 40px;
+}
+
+.banner {
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.banner h1{
+    color: #ffffff;
+    font-size: 33px;
+    line-height: 1.5;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.banner p{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.8;
+    letter-spacing: .6px;
+}
+
+.banner .reg-btn {
+    background-color: #ffffff;
+    padding: 8px 70px;
+    border-radius: 40px;
+    border: none;
+    color: #684BB1;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    box-shadow: 0px 2px 3px -1px #000;
+}
+.banner .reg-btn:hover {
+    background-color: #d97ee1;
+    padding: 8px 70px;
+    border-radius: 40px;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    box-shadow: 0px 2px 3px -1px #000;
+}
+
+.footer {
+    padding-top: 50px;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer .close{
+    display: none;
+}
+.footer .link-img{
+    height: 20px;
+    text-align: center;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  
+    
+    .landing-page {
+        background-image: url('../images/Group 2.png');
+        background-size: cover;
+    }
+
+    .header {
+        padding-top: 40px;
+    }
+    
+    .banner {
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .banner h1{
+        color: #ffffff;
+        font-size: 28px;
+        line-height: 1.5;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    .banner p{
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 20px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 600;
+        line-height: 1.8;
+        letter-spacing: .6px;
+    }
+    
+    .banner .reg-btn {
+        background-color: #ffffff;
+        padding: 8px 70px;
+        border-radius: 40px;
+        border: none;
+        color: #684BB1;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+    .banner .reg-btn:hover {
+        background-color: #d97ee1;
+        padding: 8px 70px;
+        border-radius: 40px;
+        border: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+
+    .footer {
+        padding-top: 50px;
+        text-align: center;
+    }
+    
+    .footer .close{
+        display: none;
+    }
+    .footer .link-img{
+        height: 20px;
+        text-align: center;
+    }
+ }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .header {
+        padding-top: 40px;
+    }
+    
+    .landing-page {
+        background-image: url('../images/Group 2.png');
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .banner {
+        padding-top: 150px;
+        text-align: left;
+    }
+    
+    .banner h1{
+        color: #ffffff;
+        font-size: 28px;
+        line-height: 1.5;
+        padding-top: 30px;
+        padding-bottom: 15px;
+        text-align: left;
+    }
+    
+    .banner p{
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 20px;
+        text-align: left;
+    }
+    
+    .banner .reg-btn {
+        background-color: #ffffff;
+        padding: 15px 50px;
+        border-radius: 40px;
+        border: none;
+        color: #684BB1;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+    .banner .reg-btn:hover {
+        background-color: #d97ee1;
+        padding: 15px 50px;
+        border-radius: 40px;
+        border: none;
+        color: #ffffff;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+    
+    .footer {
+        padding-top: 50px;
+        bottom: 0;
+    }
+    
+    .footer .close{
+        height: 40px;
+        text-align: right;
+        display: block;
+    }
+
+    .footer .link-img{
+        height: 40px;
+        text-align: right;
+    }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .header {
+        padding-top: 40px;
+    }
+    
+    .landing-page {
+        background-image: url('../images/Group 2.png');
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .banner {
+        padding-top: 150px;
+        text-align: left;
+        
+    }
+    
+    .banner h1{
+        color: #ffffff;
+        font-size: 33px;
+        line-height: 1.5;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    
+    .banner p{
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .banner .reg-btn {
+        background-color: #ffffff;
+        padding: 15px 50px;
+        border-radius: 40px;
+        border: none;
+        color: #684BB1;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+    .banner .reg-btn:hover {
+        background-color: #d97ee1;
+        padding: 15px 50px;
+        border-radius: 40px;
+        border: none;
+        color: #ffffff;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+    
+    .footer {
+        padding-top: 50px;
+        bottom: 0;
+    }
+    
+    .footer .close{
+        height: 40px;
+        text-align: right;
+        display: block;
+    }
+
+    .footer .link-img{
+        height: 40px;
+        text-align: right;
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .header {
+        padding-top: 40px;
+    }
+    
+    .landing-page {
+        background-image: url('../images/Group 2.png');
+        background-size: cover;
+        height: 100vh;
+    }
+    
+    .banner {
+        padding-top: 150px;
+        text-align: left;
+    }
+    
+    .banner h1{
+        color: #ffffff;
+        font-size: 33px;
+        line-height: 1.5;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    
+    .banner p{
+        color: #ffffff;
+        font-family: 'Open Sans', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .banner .reg-btn {
+        background-color: #ffffff;
+        padding: 15px 50px;
+        border-radius: 40px;
+        border: none;
+        color: #684BB1;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+    .banner .reg-btn:hover {
+        background-color: #d97ee1;
+        padding: 15px 50px;
+        border-radius: 40px;
+        border: none;
+        color: #ffffff;
+        text-align: left;
+        font-size: 13px;
+        font-weight: 400;
+        box-shadow: 0px 2px 3px -1px #000;
+    }
+    
+    .footer {
+        padding-top: 50px;
+        bottom: 0;
+        text-align: right;
+    }
+    
+    .footer .close{
+        height: 40px;
+        text-align: right;
+        display: block;
+    }
+    .footer .link-img{
+        height: 40px;
+        text-align: right;
+    }
+ }
